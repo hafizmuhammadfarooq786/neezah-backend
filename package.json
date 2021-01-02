@@ -1,0 +1,47 @@
+{
+  "name": "neezah-backend",
+  "version": "1.0.0",
+  "description": "API's for Neezah App ",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js",
+    "start": "node app.js",
+    "debug": "nodemon app.js",
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hafizmuhammadfarooq786/neezah-backend.git/"
+  },
+  "keywords": [
+    "Neezah-Backend",
+    "API"
+  ],
+  "author": "Farooq and Mouzam",
+  "license": "ISC",
+  "homepage": "",
+  "dependencies": {
+    "aws-sdk": "^2.672.0",
+    "bcrypt": "^5.0.0",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "dynamoose": "^2.5.0",
+    "express": "^4.17.1",
+    "express-graphql": "^0.9.0",
+    "express-promise": "^0.4.0",
+    "fast-csv": "^4.3.6",
+    "follow-redirects": "^1.12.1",
+    "graphql": "^14.6.0",
+    "jsonwebtoken": "^8.5.1",
+    "merge-graphql-schemas": "^1.7.6",
+    "mongoose": "^5.9.3",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.2",
+    "nodemailer": "^6.4.6",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
